@@ -1,0 +1,10 @@
+mod unwrap_or;
+pub use self::unwrap_or::UnwrapOr;
+mod substr;
+pub use self::substr::SubStr;
+mod trim_start;
+pub use self::trim_start::TrimStart;
+mod trim_end;
+pub use self::trim_end::TrimEnd;
+mod trim;
+pub use self::trim::Trim;
